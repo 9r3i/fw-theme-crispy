@@ -1,0 +1,99 @@
+
+
+
+<section class="hero">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-5 col-12 m-auto">
+        <div class="heroText">
+
+          <h1 class="text-white mb-lg-5 mb-3">
+            {{crispy.hero.text.title}}
+          </h1>
+          
+          <div class="c-reviews my-3 d-flex flex-wrap align-items-center">
+            <div class="d-flex flex-wrap align-items-center">
+              <h4 class="text-white mb-0 me-3">
+                {{crispy.hero.text.rate}}/{{crispy.hero.text.rateMax}}
+              </h4>
+              <div class="reviews-stars">
+                {{Crispy.rateStars}}(crispy.hero.text.rate)
+              </div>
+            </div>
+            <p class="text-white w-100">
+              From <strong>{{Crispy.numberFormat}}(crispy.hero.text.reviews,crispy.hero.text.locale)</strong> Customer Reviews
+            </p>
+          </div>
+        
+        </div>
+      </div>
+
+      <div class="col-lg-7 col-12">
+        <div id="carouselExampleCaptions" class="carousel carousel-fade hero-carousel slide" data-bs-ride="carousel">
+      
+          <div class="carousel-inner" id="carousel-slider-items">
+            {{Crispy.sliderItems}}()
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="video-wrap">
+    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+      <source src="{{Crispy.heroVideo}}()" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="overlay"></div>
+</section>
+
+<!-- special menus -->
+<section class="menu section-padding">
+  <div class="container">
+    <div class="row">
+      
+      {{Crispy.specialMenusPosts}}()
+
+    </div>
+  </div>
+</section>
+
+<section class="BgImage"></section>
+
+<!-- posts/bulk -->
+<section class="news section-padding bg-white">
+  <div class="container">
+    <div class="row">
+      
+      <h2 class="text-center mb-lg-5 mb-4">{{crispy.bulk.latest}}</h2>
+      
+      {{Crispy.bulkContent}}(data)
+
+    </div>
+  </div>
+</section>
+
+<section class="news section-padding">
+  <div class="container">
+    <div class="row">
+
+      {{Crispy.newsPosts}}()
+
+    </div>
+  </div>
+</section>

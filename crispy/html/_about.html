@@ -1,0 +1,76 @@
+
+<header class="site-header site-about-header">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-10 col-12 mx-auto">
+        <h1 class="text-white">{{crispy.about.title}}</h1>
+
+        <strong class="text-white">{{crispy.about.description}}</strong>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+</header>
+
+<section class="about section-padding bg-white">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6 col-12 mb-2">
+        <h4 class="mb-3" id="about-title"></h4>
+
+        <a href="?news" class="custom-btn btn btn-dark mt-3">{{crispy.bulk.check}}</a>
+
+        <a href="?contact" class="custom-btn btn btn-danger mt-3 ms-3">{{crispy.contact.caption.title}}</a>
+      </div>
+
+      <div class="col-lg-6 col-12">
+
+        {{Crispy.aboutContent}}()
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="about section-padding">
+  <div class="container">
+  <div class="row">
+    {{Crispy.teamPosts}}()
+  </div>
+  </div>
+</section>
+
+<section class="newsletter section-padding bg-white">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6 col-12">
+        <img src="{{theme.path}}images/about.footer.jpg" class="img-fluid newsletter-image" alt="">
+      </div>
+
+      <div class="col-lg-6 col-12 d-flex align-items-center mt-5 mt-lg-0 mx-auto">
+        <div class="subscribe-form-wrap">
+          <h4 class="mb-0">Our Newsletter</h4>
+
+          <p>The food news every day</p>
+
+          <form class="custom-form subscribe-form mt-4" role="form">
+            <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Your email address" required="">
+
+            <button type="submit" class="form-control mb-3" id="subscribe">Subscribe</button>
+
+            <small>By signing up, you agree to our Privacy Notice and the data policy</small>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,43 @@
+
+
+
+<header class="site-header site-news-header">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-10 col-12 mx-auto">
+        <h1 class="text-white">{{crispy.bulk.title}}</h1>
+
+        <strong class="text-white">{{crispy.bulk.description}}</strong>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+</header>
+
+<section class="news section-padding bg-white">
+  <div class="container">
+    <div class="row">
+
+      <h2 class="mb-lg-5 mb-4">{{crispy.bulk.latest}}</h2>
+      
+      {{Crispy.bulkContent}}(data,crispy.args.all)
+
+    </div>
+  </div>
+</section>
+
+<section class="news section-padding">
+  <div class="container">
+    <div class="row">
+
+      {{Crispy.newsPosts}}()
+
+    </div>
+  </div>
+</section>
+
+
+

@@ -1,0 +1,140 @@
+{
+    "bulk": {
+        "title": "News and Events",
+        "description": "Our latest updates, news, events and special promotions",
+        "latest": "Latest Updates",
+        "check": "Check out News",
+        "limit": 8
+    },
+    "about": {
+        "title": "Kitchen's Story",
+        "description": "This is how our kitchen evolved in new digital era",
+        "id": 18,
+        "team": {
+            "title": "Team Members"
+        }
+    },
+    "hero": {
+        "video": 9,
+        "text": {
+            "title": "Cappuccino Delight",
+            "rate": 4.6,
+            "rateMax": 5,
+            "reviews": 806,
+            "locale": "en-US"
+        },
+        "carousel": {
+            "items": [
+                {
+                    "active": true,
+                    "title": "Non-Alcohol Drinks",
+                    "location": "Kodau, Pondok Melati, Bekasi",
+                    "picture": "images\/slide\/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                },
+                {
+                    "active": false,
+                    "title": "Steak",
+                    "picture": "images\/slide\/jason-leung-O67LZfeyYBk-unsplash.jpg",
+                    "currency": "$",
+                    "price": 26.5,
+                    "rate": 3.8,
+                    "rateMax": 5
+                },
+                {
+                    "active": false,
+                    "title": "Sausage Pasta",
+                    "picture": "images\/slide\/ivan-torres-MQUqbmszGGM-unsplash.jpg",
+                    "currency": "$",
+                    "price": 18.25,
+                    "rate": 4.2,
+                    "rateMax": 5
+                }
+            ]
+        }
+    },
+    "nav": {
+        "menu": [
+            {
+                "href": "?home",
+                "text": "Home"
+            },
+            {
+                "href": "?special",
+                "text": "Special Menu"
+            },
+            {
+                "href": "?news",
+                "text": "News"
+            },
+            {
+                "href": "?about",
+                "text": "About Us"
+            },
+            {
+                "href": "?contact",
+                "text": "Contact"
+            },
+            {
+                "href": "?kitchen",
+                "text": "Login"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Leave a message",
+        "caption": {
+            "title": "Say Hi",
+            "text": "We are happy to get in touch with you"
+        }
+    },
+    "reservation": {
+        "text": "Reservation"
+    },
+    "socialMedia": {
+        "title": "Media Sosial",
+        "instagram": "https:\/\/www.instagram.com\/harian.kapi\/",
+        "facebook": "https:\/\/www.facebook.com\/hariankapikodau\/"
+    },
+    "opening": {
+        "title": "Opening Hours",
+        "day": "Monday - Sunday",
+        "hour": "11:00 AM - 11:30 PM",
+        "phone": "+6281234567890",
+        "weekdays": {
+            "title": "Weekdays",
+            "day": "Monday - Friday",
+            "hour": "11:00 AM - 11:30 PM"
+        },
+        "weekends": {
+            "title": "Weekends",
+            "day": "Saturday - Sunday",
+            "hour": "11:00 AM - 11:30 PM"
+        }
+    },
+    "location": {
+        "title": "Location",
+        "address": "Jl. Raya Kodau No.14, RT.001\/RW.003, Jatirahayu, Kec. Pd. Melati, Kota Bks, Jawa Barat 17421",
+        "direction": "https:\/\/maps.app.goo.gl\/Pgo2oraE9cJpdpFo6",
+        "map": "https:\/\/maps.google.com\/maps?width=420&amp;height=320&amp;hl=en&amp;q=Harian+Kapi+Kodau&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    },
+    "special": {
+        "header": {
+            "title": "Our Special Menus",
+            "description": "Perfect Drink for You"
+        },
+        "title": "Special Menus",
+        "list": [
+            {
+                "title": "Premium Steak",
+                "picture": "images\/unsplash.jpg",
+                "tag": "Dinner",
+                "currency": "$",
+                "price": 45,
+                "priceOrigin": 150,
+                "rate": 3,
+                "rateMax": 5,
+                "reviews": 86
+            }
+        ]
+    }
+}

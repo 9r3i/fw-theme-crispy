@@ -1,0 +1,24 @@
+
+@import url('css/bootstrap.min.css');
+@import url('css/bootstrap-icons.css');
+@import url('css/tooplate-crispy-kitchen.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+
+.crispy-page-loader{
+  margin:10px 0px;
+  padding:100px 10px;
+  white-space:pre-wrap;
+  text-align:center;
+}
+.crispy-page-loader img{
+  margin-right:10px;
+}
+.arabic{
+  direction:rtl;
+  font-family:'arabic';
+  font-size:32px;
+  color:#555;
+}
+
+
