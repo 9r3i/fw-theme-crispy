@@ -3,7 +3,8 @@
 
 /** require object and method -- crispy.init */
 window.crispy=window.crispy||{
-  version:'1.0.0',
+  version:'1.0.1',
+  uri:'https://github.com/9r3i/fw-theme-crispy',
   init:async function(){
     if(!ForceWebsite.config.hasOwnProperty('crispy')){
       await Crispy.before();
@@ -568,22 +569,22 @@ window.Crispy=window.Crispy||{
     }return res.join('\n');
   },
   mainContent:function(query,post,bulk){
-    var file='html/_index.html',
+    var file='html/index.html',
     image=ForceWebsite.theme.path+'images/default.loader.gif',
     mainID='crispy-page-loader',
     contentMain='<div class="'+mainID+'" id="'+mainID+'">'
       +'<img src="'+image+'" /> Loading...'
       +'</div>';
     if(query.hasOwnProperty('p')){
-      file='html/_post.html';
+      file='html/post.html';
     }else if(query.hasOwnProperty('contact')){
-      file='html/_contact.html';
+      file='html/contact.html';
     }else if(query.hasOwnProperty('news')){
-      file='html/_news.html';
+      file='html/news.html';
     }else if(query.hasOwnProperty('special')){
-      file='html/_special.html';
+      file='html/special.html';
     }else if(query.hasOwnProperty('about')){
-      file='html/_about.html';
+      file='html/about.html';
     }
     ForceWebsite.theme.loadHTML(file,r=>{
       var forms=document.querySelectorAll('form'),
